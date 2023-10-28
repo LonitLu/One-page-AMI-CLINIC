@@ -4,9 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <title>AMI CLINIC</title>
   <link rel="stylesheet" href="reset/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images\Layer-faw.svg">
 </head>
 
 <body>
@@ -50,7 +55,6 @@
           </nav>
         </div>
       </div>
-
     </header>
 
     <main class="main">
@@ -58,7 +62,63 @@
     </main>
 
     <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__inner--form">
+            <div class="footer__inner--logo">
+              <a class="logo" href="#">
+                <img class="logo__img" src="images/Logotype.png" alt="#">
+              </a>
+              <div class="logo__line"></div>
+              <div class="logo__content">
+                <p class="logo__text">Заботливая стоматология, которую вы полюбите.</p>
+              </div>
+            </div>
+            <form class="form__record" action="">
+              <input class="form__record--number" type="number" name="phone" placeholder="Введите номер телефона">
+              <button class="form__record--btn">Записаться</button>
+              <label>
+                <input class="form__record--checkbox" type="checkbox" name="agree">Нажимая кнопку вы соглашаетесь с
+                условиями <u>политики конфиденциальности.</u>
+              </label>
+            </form>
+            <div class="form__worktime">
+              <img class="form__worktime--img" src="images/worktime.png" alt="график работы">
+              <p class="form__worktime--text">Пн-Вс 9:00-21:00</p>
+            </div>
+            <div class="form__adress">
+              <a class="form__adress__link" href="#">
+                <img class="form__adress--img" src="images/Location.png" alt="адрес">
+                <p class="form__adress--text">г. Москва, ул. Таганская, д. 26, стр. 1
+                </p>
+              </a>
+            </div>
+            <ul class="form__social">
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/VK.png" alt="вк">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/Ok.png" alt="ок">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/YouTube.png" alt="ютуб">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer__inner--menu">
 
+          </nav>
+          <div class="footer__inner--text">
+
+          </div>
+        </div>
+      </div>
     </footer>
 
 
