@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap&Raleway:wght@500&display=swap"
     rel="stylesheet">
   <title>AMI CLINIC</title>
   <link rel="stylesheet" href="reset/normalize.css">
@@ -19,7 +20,7 @@
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <div class="header__inner--logo">
+          <div class="inner--logo">
             <a class="logo" href="#">
               <img class="logo__img" src="images/Logotype.png" alt="#">
             </a>
@@ -65,7 +66,7 @@
       <div class="container">
         <div class="footer__inner">
           <div class="footer__inner--form">
-            <div class="footer__inner--logo">
+            <div class="inner--logo">
               <a class="logo" href="#">
                 <img class="logo__img" src="images/Logotype.png" alt="#">
               </a>
@@ -75,11 +76,14 @@
               </div>
             </div>
             <form class="form__record" action="">
-              <input class="form__record--number" type="number" name="phone" placeholder="Введите номер телефона">
-              <button class="form__record--btn">Записаться</button>
-              <label>
-                <input class="form__record--checkbox" type="checkbox" name="agree">Нажимая кнопку вы соглашаетесь с
-                условиями <u>политики конфиденциальности.</u>
+              <div class="form__record--item">
+                <input class="form__record--number" type="tel" name="phone" placeholder="Введите номер телефона">
+                <button class="form__record--btn">Записаться</button>
+              </div>
+              <label class="form__record--checkbox">
+                <input type="checkbox" name="agree">
+                <p>Нажимая кнопку вы соглашаетесь с
+                  условиями <u>политики конфиденциальности.</u></p>
               </label>
             </form>
             <div class="form__worktime">
@@ -112,7 +116,99 @@
             </ul>
           </div>
           <nav class="footer__inner--menu">
-
+            <!-- клиника -->
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Клиника</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">О нас</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Врачи</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Отзывы</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Акции, рассрочка</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Статьи</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <!-- услуги -->
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Услуги</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">All-on-4 / Имплантация</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Лечение зубов / Терапия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Выравнивание зубов / Ортопедия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Эстетика/Ортопедия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Зуботехническая лаборатория</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Рассчёт стоимости онлайн</a>
+              </li>
+            </ul>
+            <!-- телефон -->
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Телефон</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link phone" href="tel:+781250000000">+7 8125 000 00 00</a>
+              </li>
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Отвечаем онлайн</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Viber</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Telegram</a>
+              </li>
+            </ul>
+            <!-- Преимущества -->
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Преимущества</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Лечение без боли и стресса</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Собственная зуботехническая лаборатория</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Полное восстановление зубов за 1 день</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Бесплатный первичный прием</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Рассрочка от клиники</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Все врачи работают с оптикой — увеличение до 40 крат</a>
+              </li>
+            </ul>
           </nav>
           <div class="footer__inner--text">
 
