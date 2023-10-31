@@ -49,6 +49,8 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: -8px;
+  margin-bottom: -17px;
 }
 
 h4 {
@@ -153,14 +155,15 @@ h4 {
 }
 
 .slider__content--title {
-  padding-top: 141px;
+  height: 500px;
+  padding-top: 120px;
   padding-left: 56px;
 }
 
 .slider__content--title-text {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .slider__text--top {
@@ -170,6 +173,8 @@ h4 {
   line-height: 130%;
 }
 
+.slider__title{}
+
 .slider__text--bottom {
   color: #111C27;
   font-size: 15px;
@@ -177,13 +182,13 @@ h4 {
 }
 
 .slider__content--title-btn {
-  padding-top: 24px;
+  padding-top: 20px;
   display: flex;
   gap: 8px;
 }
 
 .slider__record--btn,
-.slider__price--btn{
+.slider__price--btn {
   padding: 18px 24px;
   border-radius: 8px;
   background: #30B5DF;
@@ -193,23 +198,43 @@ h4 {
   line-height: 130%;
 }
 
-.slider__price--btn{
+.slider__price--btn {
   background: #25D366;
 }
 
-.slider__content--title-address{
+.slider__content--title-address {
+  display: inline-flex;
+  gap: 16px;
+  padding-top: 23px;
 
+}
+
+.slider__feedback {
+  display: flex;
+  gap: 8px;
+  margin-top: 399px;
+  margin-left: 101px;
+
+}
+.slider__feedback--list{
+  padding: 23px 15px;
+  border-radius: 8.604px;
+  border: 0.358px solid #D1D5DB;
+  background: rgba(255, 255, 255, 0.50);
+  backdrop-filter: blur(8.5px);
 
 }
 
-.form__worktime{
-
-}
-/* .form__address--text */
-.form__address{
-/* margin-right: auto; */
+.slider__feedback--list-ref {
+  position: relative;
 }
 
+.slider__ref--btn {
+  right: 0;
+  top: -7px;
+}
+
+/* футер начинается */
 .footer__inner {
   display: grid;
   grid-template-columns: auto auto;
@@ -274,31 +299,37 @@ input[type=checkbox] {
 }
 
 .form__worktime {
-  width: 100%;
-  /* display: flex;
-  align-items: center; */
-  padding-top: 32px;
+  display: flex;
+  align-items: center;
   font-size: 15px;
   line-height: 150%;
   color: #111827;
 }
 
 .form__worktime--img {
-  float: left;
   padding-right: 8px;
 }
 
+.form__worktime--footer {
+  padding-top: 32px;
+}
+
 .form__address {
-  width: 100%;
-  padding-top: 16px;
   font-size: 15px;
   line-height: 150%;
   color: #111827;
 }
 
+.form__address__link {
+  display: flex;
+}
+
 .form__address--img {
-  float: left;
   padding: 1px 12px 2px 4px;
+}
+
+.form__address--address {
+  padding-top: 16px;
 }
 
 .form__social {
@@ -374,4 +405,3 @@ input[type=checkbox] {
   font-size: 15px;
   line-height: 150%;
 }
-
