@@ -53,6 +53,12 @@ h1 {
   margin-bottom: -17px;
 }
 
+h3 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 h4 {
   color: #111C27;
   font-family: 'Inter', sans-serif;
@@ -183,6 +189,7 @@ h4 {
   gap: 8px;
 }
 
+.buttons,
 .slider__record--btn,
 .slider__price--btn {
   padding: 18px 24px;
@@ -229,24 +236,62 @@ h4 {
   top: -7px;
 }
 
-.swiper-slide{
+.swiper-slide {
   height: 500px;
 }
 
-.swiper-pagination-bullets.swiper-pagination-horizontal{
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   top: 450px;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background: #9CA3AF;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background: #FFF;
 }
 
+/* карточки */
+.card__rec {
+  width: 100%;
+  height: 544px;
+  margin-top: 16px;
+  display: grid;
+  grid: auto-flow / 1fr 1fr;
+  gap: 8px;
+}
+
+.card__rec--item {
+  width: 100%;
+  height: 268px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__rec--content {
+  width: 232px;
+  margin-top: 106px;
+  margin-left: 32px;
+}
+
+.card__rec--text{
+  margin-top: 6px;
+  color: #FFF;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.card__rec--btn{
+  margin-top: 14px;
+  display: inline-block;
+}
+
+
 
 /* футер */
+
 .footer__inner {
   display: grid;
   grid-template-columns: auto auto;
