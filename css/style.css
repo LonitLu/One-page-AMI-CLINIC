@@ -326,6 +326,81 @@ h4 {
   right: 15px;
 }
 
+/* расчет */
+
+.calculation {
+  width: 100%;
+  height: 533px;
+  margin-top: 90px;
+
+}
+
+.calculation__title {
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  color: #111C27;
+}
+
+.calculation__content {
+  margin-top: 23px;
+  height: 470px;
+}
+
+.calculation__card {
+  width: 408px;
+  height: 100%;
+  padding-top: 48px;
+  padding-left: 48px;
+  border-radius: 20px;
+  border: 0.5px solid #D1D6DB;
+  background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
+
+}
+
+.calculation__card--curator {
+  display: flow-root;
+}
+
+.card__curator--img {
+  float: left;
+  padding-right: 14px;
+}
+
+.card__curator--name {
+  padding-top: 10px;
+  color: #111C27;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.card__curator--text {
+  color: #6B7280;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+.calculation__card--text {
+  padding-top: 20px;
+  color: #111827;
+  line-height: 150%;
+}
+
+.calculation__card--title {
+  padding-top: 26px;
+  color: #111C27;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.calculation__card--item {
+  padding-top: 15px;
+}
+
+.calculation__card--item-img{
+  float: left;
+  padding-right: 12px;
+}
 
 /* футер */
 
