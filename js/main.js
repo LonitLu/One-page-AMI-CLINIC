@@ -8,3 +8,6 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
 });
+
+
+document.getElementById( 'step__progressbar--line' ).value = 60;

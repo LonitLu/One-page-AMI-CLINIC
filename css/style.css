@@ -332,7 +332,6 @@ h4 {
   width: 100%;
   height: 533px;
   margin-top: 90px;
-
 }
 
 .calculation__title {
@@ -345,6 +344,8 @@ h4 {
 .calculation__content {
   margin-top: 23px;
   height: 470px;
+  display: flex;
+  gap: 8px;
 }
 
 .calculation__card {
@@ -355,7 +356,7 @@ h4 {
   border-radius: 20px;
   border: 0.5px solid #D1D6DB;
   background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
-
+  flex-shrink: 0;
 }
 
 .calculation__card--curator {
@@ -397,9 +398,112 @@ h4 {
   padding-top: 15px;
 }
 
-.calculation__card--item-img{
+.calculation__card--item-img {
   float: left;
   padding-right: 12px;
+}
+
+.calculation__form {
+  border-radius: 20px;
+  border: 0.5px solid #D1D6DB;
+  background: #FFF;
+  width: 100%;
+}
+
+.calculation__form--title {
+  color: #111827;
+  line-height: 120%;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.calculation__form--opt {
+  width: 511px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Отступы между рядами */
+  row-gap: 12px;
+  /* Отступы между колонками */
+  column-gap: 8px;
+}
+
+.calculation__form--opt-btn-span2 {
+  grid-column: span 2;
+}
+
+.calculation__form--opt-btn {
+  height: 59px;
+  padding: 0 32px;
+  border-radius: 10px;
+  border: 1px solid #E5E7EB;
+  background: #FFF;
+  color: #111827;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.calculation__form--opt-btn-active {
+  border: 1px solid #30B5DF;
+  background: rgba(48, 181, 223, 0.10);
+  color: #30B5DF;
+}
+
+.calculation__form--step {
+  width: 582px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step__progressbar--text {
+  color: #6B7280;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.07px;
+}
+
+.step__progressbar--line {
+  width: 230px;
+  height: 4px;
+  background-color: #fff;
+}
+
+progress::-webkit-progress-bar {
+  background: #F3F4F6;
+}
+
+progress::-webkit-progress-value {
+  background: #30B5DF;
+}
+
+progress::-moz-progress-bar {
+  background: #30B5DF;
+}
+
+.step__btn--back,
+.step__btn--next {
+  width: 72px;
+  height: 36px;
+  border-radius: 8px;
+  color: #111C27;
+  font-size: 15px;
+  border: 0.5px solid #D1D6DB;
+  opacity: 0.5;
+  background: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.step__btn--next {
+  margin-left: 6px;
+  opacity: 1;
+  background: #30B5DF;
+  color: #FFF;
 }
 
 /* футер */
