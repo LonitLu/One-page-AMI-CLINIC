@@ -53,6 +53,17 @@ h1 {
   margin-bottom: -17px;
 }
 
+h2{
+  text-transform: uppercase;
+  color: #111C27;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+    letter-spacing: -0.25px;
+}
+
 h3 {
   color: #FFF;
   font-size: 20px;
@@ -505,6 +516,31 @@ progress::-moz-progress-bar {
   background: #30B5DF;
   color: #FFF;
 }
+
+/* шеф */
+
+.main__chief--inner{
+display: flex;
+justify-content: space-between;
+margin-top: 130px;
+}
+
+.chief__inner--content{
+  width: 563px;
+}
+
+.chief__inner--content-title{
+  padding-bottom: 20px;
+}
+
+.text__blue{
+  color: #16A3D0;
+}
+
+.chief__inner--img{
+  margin-top: -70px;
+}
+
 
 /* футер */
 
