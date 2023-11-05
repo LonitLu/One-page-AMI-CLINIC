@@ -53,15 +53,15 @@ h1 {
   margin-bottom: -17px;
 }
 
-h2{
+h2 {
   text-transform: uppercase;
   color: #111C27;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 115%;
-    letter-spacing: -0.25px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%;
+  letter-spacing: -0.25px;
 }
 
 h3 {
@@ -77,6 +77,16 @@ h4 {
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
+}
+
+h5 {
+  color: #111C27;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  text-transform: uppercase;
 }
 
 .wrapper {
@@ -519,27 +529,50 @@ progress::-moz-progress-bar {
 
 /* шеф */
 
-.main__chief--inner{
-display: flex;
-justify-content: space-between;
-margin-top: 130px;
+.main__chief--inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
 }
 
-.chief__inner--content{
+.chief__inner--content {
   width: 563px;
 }
 
-.chief__inner--content-title{
+.chief__inner--content-title {
   padding-bottom: 20px;
 }
 
-.text__blue{
+.text__blue {
   color: #16A3D0;
 }
 
-.chief__inner--img{
+.chief__inner--content-text {
+  padding-bottom: 5px;
+  line-height: 150%;
+}
+
+.chief__inner--content-info {
+  margin-top: 40px;
+  margin-right: 70px;
+  display: flex;
+  gap: 47px;
+}
+
+.chief__info--text {
+  padding-top: 7px;
+  color: #384150;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.chief__inner--img {
   margin-top: -70px;
 }
+
+/* врачи */
+
+
 
 
 /* футер */
