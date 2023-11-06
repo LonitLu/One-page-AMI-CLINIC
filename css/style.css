@@ -562,8 +562,8 @@ progress::-moz-progress-bar {
 .chief__info--text {
   padding-top: 7px;
   color: #384150;
-    font-size: 15px;
-    line-height: 140%;
+  font-size: 15px;
+  line-height: 140%;
 }
 
 .chief__inner--img {
@@ -572,7 +572,102 @@ progress::-moz-progress-bar {
 
 /* врачи */
 
+.doctors__title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 125%;
+}
 
+.doctors__text {
+  text-align: center;
+  color: #111C27;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.doctors__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.doctors__tabs--btn,
+.doctors__tabs--btn-active {
+  padding: 8px 20px;
+  border-radius: 60px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 141%;
+  border: none;
+  background: #F3F4F6;
+  color: #111827;
+}
+
+.doctors__tabs--btn-active {
+  background: #30B5DF;
+  color: #FFF;
+}
+
+.doctors__cards {
+  display: flex;
+  gap: 10px;
+}
+
+.doctor__card {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 0.5px solid #D1D5DB;
+}
+
+.doctor__card--info {
+  width: 260px;
+  margin-left: 55px;
+}
+
+.doctor__card--name {
+  color: #000;
+  font-weight: 600;
+  line-height: 150%;
+  padding-top: 17px;
+  padding-bottom: 5px;
+}
+
+.doctor__card--post {
+  color: #384450;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.doctor__card--exp {
+  padding-top: 12px;
+  color: #384450;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.bold__text {
+  color: #111827;
+  font-weight: 600;
+}
+
+.doctor__card--link-btn {
+  width: 260px;
+  display: inline-block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.doctor__card--link {
+  text-align: center;
+  color: #4D5561;
+  font-size: 15px;
+  line-height: 150%;
+  padding-bottom: 30px;
+}
 
 
 /* футер */
