@@ -669,6 +669,43 @@ progress::-moz-progress-bar {
   padding-bottom: 30px;
 }
 
+.doctors__pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.doctors__pages--number {
+  color: #6B7680;
+  font-size: 15px;
+  line-height: 20px;
+
+}
+
+.doctors__pages--btn {
+  display: flex;
+  gap: 12px;
+}
+
+.doctors__pages--btn-back,
+.doctors__pages--btn-next {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 0.5px solid #D1D6DB;
+  opacity: 0.5;
+  background: #FFF;
+  color: #111C27;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+
+}
+
+.doctors__pages--btn-next {
+  opacity: 1;
+}
 
 /* футер */
 
