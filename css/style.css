@@ -816,7 +816,82 @@ progress::-moz-progress-bar {
   display: flex;
 }
 
+/* запись */
 
+.main__record--inner {
+  height: 489px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: #F9FAFB;
+  position: relative;
+}
+
+.record__inner--content {
+  width: 492px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.record__content--title {
+  color: #111827;
+  font-size: 33px;
+  line-height: 105%;
+}
+
+.record__content--subtitle {
+  color: #111827;
+  padding-top: 7px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.record__content--list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #384150;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.record__content--list ::marker {
+  color: #30B5DF;
+}
+
+.record__content--item {
+  padding-top: 10px;
+}
+
+.record__inner--content .record__content--form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.record__content--present {
+  display: flex;
+  gap: 24px;
+}
+
+.record__content--present-1 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+}
+
+.record__present--text {
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.record__inner--img {
+  width: 550px;
+  height: 594px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 /* футер */
 
