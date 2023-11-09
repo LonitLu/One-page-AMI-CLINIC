@@ -952,6 +952,28 @@ progress::-moz-progress-bar {
   bottom: 12px;
 }
 
+/* рассрочка */
+
+.main__instalment {
+  height: 695px;
+  margin-top: 170px;
+  background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
+}
+
+.instalment__inner {
+  height: 645px;
+  position: relative;
+  z-index: 2;
+}
+
+.instalment__inner--img {
+  position: absolute;
+  z-index: -1;
+  bottom: 50px;
+  left: -29px;
+}
+
+
 
 
 /* футер */
