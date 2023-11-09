@@ -893,6 +893,67 @@ progress::-moz-progress-bar {
   right: 0;
 }
 
+/* сомнения */
+
+.main__dubt--inner {
+  margin-top: 90px;
+}
+
+.dubt__inner--cards {
+  display: flex;
+  gap: 32px;
+  margin-top: 35px;
+}
+
+.dubt__card {
+  width: 100%;
+  height: 320px;
+  padding: 0 32px;
+  border-radius: 16px;
+  background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
+  position: relative;
+}
+
+.dubt__card--content {
+  width: 307px;
+  margin-top: 31px;
+}
+
+.dubt__card--content-text {
+  width: 270px;
+  padding-top: 10px;
+  color: #001E45;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.dubt__card--content-title {
+  color: #001837;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.dubt__card--content-btn {
+  display: inline-block;
+  margin-top: 20px;
+  border: 0.5px solid #D1D6DB;
+  background: #FFF;
+  color: #111827;
+}
+
+.dubt__card--img {
+  right: 32px;
+  position: absolute;
+  bottom: 0;
+}
+
+.dubt__card--img-mac {
+  right: 0;
+  bottom: 12px;
+}
+
+
+
 /* футер */
 
 .footer__inner {
