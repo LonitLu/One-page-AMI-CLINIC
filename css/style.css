@@ -847,16 +847,20 @@ progress::-moz-progress-bar {
   line-height: 150%;
 }
 
-.record__content--list {
+.ul__marker--blue {
   list-style-type: disc;
   list-style-position: inside;
+
+}
+
+.ul__marker--blue ::marker {
+  color: #30B5DF;
+}
+
+.record__content--list {
   color: #384150;
   font-size: 15px;
   line-height: 150%;
-}
-
-.record__content--list ::marker {
-  color: #30B5DF;
 }
 
 .record__content--item {
@@ -955,7 +959,7 @@ progress::-moz-progress-bar {
 /* рассрочка */
 
 .main__instalment {
-  height: 695px;
+  height: 645px;
   margin-top: 170px;
   background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
 }
@@ -973,6 +977,70 @@ progress::-moz-progress-bar {
   left: -29px;
 }
 
+.instalment__content--text {
+  width: 500px;
+  margin: 0 15px 0 auto;
+  padding-top: 40px;
+}
+
+.instalment__inner--title {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #111827;
+}
+
+.instalment__inner--text {
+  padding-top: 35px;
+  line-height: 150%;
+  color: #111C27;
+}
+
+.instalment__inner--cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+}
+
+.instalment__card {
+  padding: 32px;
+  width: 557px;
+  height: 300px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(18px);
+}
+
+.instalment__card--title {
+  color: #0B1F35;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.instalment__card--list {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.instalment__card--item {
+  color: #111C27;
+  line-height: 110%;
+
+}
+
+.instalment__card--buttons {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.instalment__card--logo {
+  position: absolute;
+  top: 35px;
+  right: 32px;
+}
 
 
 
