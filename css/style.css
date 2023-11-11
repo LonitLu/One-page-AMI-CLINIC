@@ -764,7 +764,8 @@ progress::-moz-progress-bar {
   background-size: 100% 100%;
 }
 
-.stories__img--btn {
+.stories__img--btn,
+.circle__blue--btn {
   float: left;
   width: 60px;
   height: 60px;
@@ -1044,6 +1045,85 @@ progress::-moz-progress-bar {
 
 /* хелпер=куратор */
 
+.main__helper--inner {
+  height: 666px;
+  margin-top: 90px;
+}
+
+.helper__inner--content {
+  margin-top: 35px;
+  height: 463px;
+  display: flex;
+  gap: 8px;
+}
+
+.helper__inner--title {
+  font-size: 43px;
+  line-height: 93%;
+  text-align: center;
+}
+
+.helper__inner--text {
+  padding-top: 10px;
+  line-height: 150%;
+  text-align: center;
+  color: #111C27;
+}
+
+.helper__content--text {
+  width: 721px;
+  padding: 56px 64px 36px 64px;
+  border-radius: 20px;
+  background: linear-gradient(72deg, #DEEFFF -65.52%, #F9FAFB 69.16%);
+}
+
+.helper__text--exp {
+  padding-top: 15px;
+  padding-bottom: 7px;
+  line-height: 130%;
+  color: #4D5561;
+}
+
+.helper__text--item {
+  padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+  line-height: 140%;
+  color: #1F2B37;
+}
+
+.helper__text--btn {
+  display: inline-block;
+  margin-top: 26px;
+}
+
+.helper__content--img {
+  width: 401px;
+  padding: 24px;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  border: 0.5px solid #D1D6DB;
+}
+
+.helper__img--text {
+  padding-bottom: 20px;
+  padding-left: 8px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.helper__pages--btn {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.helper__pages--btn-back {
+  opacity: 1;
+}
 
 /* футер */
 
