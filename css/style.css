@@ -1261,24 +1261,156 @@ audio {
 
 .feedback__card--item {
   display: flex;
-    width: 293px;
-    height: 186px;
-    padding: 77px 61px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    position: relative;
+  width: 293px;
+  height: 186px;
+  padding: 77px 61px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: relative;
 }
 
 .feedback__card--btn {
   position: absolute;
-    right: 15px;
-    top: 45px;
+  right: 15px;
+  top: 45px;
 }
 
 .feedback__card--btn-zoon {
   right: 40px;
 }
+
+/* FAQ */
+
+.main__faq--inner {
+  margin-top: 90px;
+}
+
+.main__faq--curator {
+  padding: 24px;
+  height: 376px;
+  border-radius: 40px;
+  background: #F9FAFB;
+}
+
+.main__faq--curator-img {
+  float: left;
+  margin-right: 56px;
+}
+
+.main__faq--curator-title {
+  padding-top: 50px;
+  color: #111827;
+  line-height: 125%;
+}
+
+.main__faq--curator-text {
+  color: #384450;
+  line-height: 150%;
+}
+
+
+.main__faq--curator-btn {
+  margin-top: 20px;
+  display: inline-block;
+  background: #25D366;
+}
+
+.main__faq--problem-list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  align-items: baseline;
+  grid-auto-rows: minmax(auto, auto);
+  column-gap: 50px;
+}
+
+.main__faq--problem-item {
+  border-bottom: 0.8px solid #D1D5DB;
+  padding: 20px 0;
+}
+
+.faq--problem-item-title {
+  color: #111827;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.faq--problem-item-text {
+  color: #6B7280;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+details {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::-moz-list-bullet {
+  list-style-type: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+summary {
+  padding: .3em .5em .3em .4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+summary:after {
+  width: 20px;
+  height: 20px;
+  content: "+";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform .5s;
+  border-radius: 20px;
+  border: 0.5px solid #111C27;
+  color: #111C27;
+}
+
+details[open]>summary:after {
+  transform: scale(1, -1);
+  content: "–";
+  opacity: 0.5;
+}
+
+summary~* {
+  padding: 0 1em 0 1em;
+}
+
+details[open] summary~* {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 
 
 /* футер */
