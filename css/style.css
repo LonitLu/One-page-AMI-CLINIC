@@ -1237,6 +1237,48 @@ audio {
   line-height: 110%;
 }
 
+/* карточки отзывов */
+
+.main__feedback--inner {
+  margin-top: 35px;
+}
+
+.main__feedback--inner-title {
+  text-align: center;
+  color: #384450;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.feedback__cards--list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.feedback__card--item {
+  display: flex;
+    width: 293px;
+    height: 186px;
+    padding: 77px 61px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.feedback__card--btn {
+  position: absolute;
+    right: 15px;
+    top: 45px;
+}
+
+.feedback__card--btn-zoon {
+  right: 40px;
+}
 
 
 /* футер */

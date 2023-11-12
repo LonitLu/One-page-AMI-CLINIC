@@ -25,3 +25,14 @@ audioButton.addEventListener("click", () => {
     audioPlayer.pause();
   }
 });
+
+const audioButton1 = document.getElementById("audioButton1");
+const audioPlayer1 = document.getElementById("audioPlayer1");
+
+audioButton1.addEventListener("click", () => {
+  if (audioPlayer1.paused) {
+    audioPlayer1.play();
+  } else {
+    audioPlayer1.pause();
+  }
+});
