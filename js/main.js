@@ -60,3 +60,52 @@ $(".upbtn").on("click", function () {
   );
   return false;
 });
+
+// расчет
+// изменение стилей кнопок
+
+const CalculationBtn = document.querySelectorAll(".calculation__form--opt-btn");
+
+for (var i = 0; i < CalculationBtn.length; i++) {
+  CalculationBtn[i].addEventListener("click", function () {
+    // Удаляем класс active у всех кнопок
+    for (var j = 0; j < CalculationBtn.length; j++) {
+      CalculationBtn[j].classList.remove("calculation__form--opt-btn-active");
+    }
+    // Добавляем класс active только нажатой кнопке
+    this.classList.add("calculation__form--opt-btn-active");
+  });
+}
+
+// врачи
+// изменение стилей кнопок
+
+const doctorsBtn = document.querySelectorAll(".doctors__tabs--btn");
+
+for (var i = 0; i < CalculationBtn.length; i++) {
+  doctorsBtn[i].addEventListener("click", function () {
+    // Удаляем класс active у всех кнопок
+    for (var j = 0; j < doctorsBtn.length; j++) {
+      doctorsBtn[j].classList.remove("doctors__tabs--btn-active");
+    }
+    // Добавляем класс active только нажатой кнопке
+    this.classList.add("doctors__tabs--btn-active");
+  });
+}
+
+// отзывы, истории
+// изменение стилей кнопок
+
+const storiesBtn = document.querySelectorAll(".tabs__btn");
+
+for (var i = 0; i < storiesBtn.length; i++) {
+  storiesBtn[i].addEventListener("click", function () {
+    // Удаляем класс active у всех кнопок
+    for (var j = 0; j < storiesBtn.length; j++) {
+      storiesBtn[j].classList.remove("tabs__btn--active");
+    }
+    // Добавляем класс active только нажатой кнопке
+    this.classList.add("tabs__btn--active");
+  });
+}
+
