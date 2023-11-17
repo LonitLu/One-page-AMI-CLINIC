@@ -38,6 +38,7 @@ audioButton1.addEventListener("click", () => {
 });
 
 // кнопка вверх
+// кнопка взята с сайта https://atuin.ru/blog/knopka-vverx-i-varianty-ee-oformleniya/ вариант 2
 
 $("body").append('<div class="upbtn"></div>');
 $(window).scroll(function () {
@@ -80,6 +81,8 @@ for (var i = 0; i < CalculationBtn.length; i++) {
 // врачи
 // изменение стилей кнопок
 
+// разобраться почему не добавляется класс к 6 кнопке и дальше
+
 const doctorsBtn = document.querySelectorAll(".doctors__tabs--btn");
 
 for (var i = 0; i < CalculationBtn.length; i++) {
@@ -107,5 +110,50 @@ for (var i = 0; i < storiesBtn.length; i++) {
     // Добавляем класс active только нажатой кнопке
     this.classList.add("tabs__btn--active");
   });
+}
+
+// выпадающее меню
+
+// разобраться почему остается открытым меню при нажатии на раскрытие соседнего
+// объединить раскрытие меню и поворот стрелки, так же поворот работает только на первом пункте меню нужно исправить
+
+/* Когда пользователь нажимает на кнопку,
+переключение между скрытием и отображением раскрывающегося содержимого */
+function headerDropdown() {
+  document.getElementById("headerDropdown").classList.toggle("show");
+  // Закройте выпадающее меню, если пользователь щелкает за его пределами
+  window.onclick = function(event) {
+    if (!event.target.matches(".menu__list--link1")) {
+      let dropdowns = document.getElementsByClassName("header__dropdown");
+      let i;
+      for (i = 0; i < dropdowns.length; i++) {
+        let openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains("show")) {
+          openDropdown.classList.remove("show");
+        }
+      }
+    }
+  }
+}
+// поворот стрелки
+document.querySelector(".arrow__img").addEventListener("click", function () {
+  this.classList.toggle("rotate-180");
+});
+
+function headerDropdown2() {
+  document.getElementById("headerDropdown2").classList.toggle("show2");
+  // Закройте выпадающее меню, если пользователь щелкает за его пределами
+  window.onclick = function(event) {
+    if (!event.target.matches(".menu__list--link2")) {
+      let dropdowns = document.getElementsByClassName("header__dropdown2");
+      let i;
+      for (i = 0; i < dropdowns.length; i++) {
+        let openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains("show2")) {
+          openDropdown.classList.remove("show2");
+        }
+      }
+    }
+  }
 }
 
